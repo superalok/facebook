@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="node" value="http://192.168.2.10:4444/wd/hub"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <parameter name="node" value="http://192.168.2.10:4444/wd/hub"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.facebook.test.ValidLogin">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.facebook.test.ValidLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

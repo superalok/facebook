@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 55.863 s <<< FAILURE! - in TestSuite
+testValidLogin(com.facebook.test.ValidLogin)  Time elapsed: 37.814 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.facebook.test.ValidLogin.testValidLogin(ValidLogin.java:23)
+
